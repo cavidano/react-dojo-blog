@@ -4,15 +4,13 @@ import Home from './Home';
 
 const App = () => {
 
-  const title = 'Welcone to the new blog';
+  const title = 'Welcome to the new blog';
   const liked = 50;
 
   return (
     <div className="App">
-      <div className="content">
       <Navbar />
-        <h1>{title}</h1>
-        <p>Liked {liked} times.</p>
+      <div className="content">
         <Home />
       </div>
     </div>
